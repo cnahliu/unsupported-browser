@@ -1,0 +1,141 @@
+<!doctype html5>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>抱歉，您的浏览器需要升级。</title>
+    </head>
+        <style>
+            html, body {
+                padding: 0;
+                margin: 0;
+            }
+
+            body {
+                font-family: "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "Hiragino Sans GB", "Source Han Sans CN", "Source Han Sans SC", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;
+                background: #fff;
+            }
+
+            a {
+                text-decoration: none;
+                transition: color .5s;
+            }
+
+            h1 {
+                font-weight: normal;
+                text-align: center;
+                font-size: 32px;
+                line-height: 200px;
+                color: #555;
+                border-bottom: 1px dashed #777;
+            }
+
+            .icon-font:before {
+                margin: 0;
+            }
+
+            h1 span.icon-font {
+                font-size: 64px;
+                text-align: left;
+                color: #aaa;
+                padding-right: 12px;
+                position: relative;
+                top: 5px;
+            }
+
+            ul, li {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+            }
+
+            #suggestions li, #suggestions p {
+                font-size: 36px;
+                width: 480px;
+                margin: 1em auto;
+            }
+
+            #suggestions p {
+                padding-top: 20px;
+                font-size: 18px;
+                color: #555;
+            }
+
+            #suggestions li a span.icon-font {
+                width: 60px;
+                color: #999;
+                display: inline-block;
+                float: left;
+                transition: color .5s;
+            }
+
+            #suggestions li::after {
+                clear: both;
+                content: '';
+                display: block;
+            }
+
+            #suggestions li {
+                cursor: pointer;
+            }
+
+            #suggestions li a {
+                color: #555;
+            }
+
+            #suggestions li:hover a,
+            #suggestions li:hover a span.icon-font {
+                color: #4682B4;
+            }
+
+            #suggestions .intro {
+                padding-top: 12px;
+                padding-left: 62px;
+                font-size: 16px;
+                display: block;
+                color: #999;
+            }
+
+            #copyright {
+                font-size: 12px;
+                color: #aaa;
+                width: 500px;
+                margin: 20px auto;
+            }
+        </style>
+    <body>
+        <h1>
+            <span class="icon-font icon-emo-tongue"></span>
+            抱歉，您的浏览器需要升级。
+        </h1>
+        <ul id="suggestions">
+            <p>为了正常使用本站，我们建议您使用以下浏览器。</p>
+            <li>
+                <a href="http://se.360.cn/">
+                    <span class="icon-font icon-ie"></span>
+                    <span class="title">360安全浏览器</span>
+                    <span class="intro">
+                        国内优秀的浏览器厂商，4亿用户的共同的选择。
+                    </span>
+                </a>
+            </li>
+            <li>
+                <a href="http://www.firefox.com.cn/download/">
+                    <span class="icon-font icon-firefox"></span>
+                    <span class="title">Mozilla Firefox</span>
+                    <span class="intro">
+                        全球超过5亿用户使用的浏览器，你也来下载安装吧！
+                    </span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.google.com/chrome/">
+                    <span class="icon-font icon-chrome"></span>
+                    <span class="title">Google Chrome</span>
+                    <span class="intro">
+                        快速安全的网络浏览器，源自谷歌。
+                    </span>
+                </a>
+            </li>
+        </ul>
+    </body>
+</html>
